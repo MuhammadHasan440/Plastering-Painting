@@ -128,10 +128,7 @@ header.scrolled {
 }
 
 .logo-icon {
-    background: var(--gradient);
-    color: var(--white);
-    width: 50px;
-    height: 50px;
+    
     border-radius: 12px;
     display: flex;
     align-items: center;
@@ -140,7 +137,11 @@ header.scrolled {
     margin-right: 1rem;
     box-shadow: var(--shadow-sm);
 }
-
+.logo-icon img{
+    border-radius: 10px;
+    width: 58px;
+    height: 58px;
+}
 .logo-text {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
