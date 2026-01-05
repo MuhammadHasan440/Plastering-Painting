@@ -1622,6 +1622,10 @@ footer:before {
     .before-after-container {
         height: 280px;
     }
+    .logo-text{
+        font-size: 19px;
+        
+    }
 }
 
 @media (max-width: 576px) {
